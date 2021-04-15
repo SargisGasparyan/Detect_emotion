@@ -1,4 +1,4 @@
-absl-py==0.11.0
+absl-py @ file:///tmp/build/80754af9/absl-py_1615411197583/work
 astor==0.8.1
 astunparse==1.6.3
 bleach==1.5.0
@@ -7,27 +7,32 @@ cachetools==4.2.0
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
+coverage @ file:///tmp/build/80754af9/coverage_1614614208500/work
+Cython @ file:///tmp/build/80754af9/cython_1614014843172/work
 Flask==1.1.2
 flatbuffers==1.12
-gast==0.3.3
+gast @ file:///tmp/build/80754af9/gast_1597433534803/work
 google-auth==1.24.0
 google-auth-oauthlib==0.4.2
 google-pasta==0.2.0
-grpcio==1.32.0
+grpcio @ file:///tmp/build/80754af9/grpcio_1614884176509/work
 gunicorn==20.0.4
-h5py==2.10.0
+h5py @ file:///tmp/build/80754af9/h5py_1593454121459/work
 html5lib==0.9999999
 idna==2.10
-importlib-metadata==3.3.0
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1617877310517/work
 imutils==0.5.3
 itsdangerous==1.1.0
 Jinja2==2.11.2
 joblib==1.0.0
 Keras==2.3.1
-Keras-Applications==1.0.8
-Keras-Preprocessing==1.1.2
-Markdown==3.3.3
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
+Markdown @ file:///tmp/build/80754af9/markdown_1614363833670/work
 MarkupSafe==1.1.1
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
 numpy==1.19.4
 oauthlib==3.1.0
 opencv-contrib-python==4.5.1.48
@@ -46,14 +51,14 @@ requests-oauthlib==1.3.0
 rsa==4.6
 scikit-learn==0.22.1
 scipy==1.5.4
-six==1.15.0
+six @ file:///tmp/build/80754af9/six_1605205335545/work
 tensorboard==2.4.1
 tensorboard-plugin-wit==1.7.0
-tensorflow==2.4.1
+tensorflow==1.14.0
 tensorflow-estimator==2.4.0
 termcolor==1.1.0
-typing-extensions==3.7.4.3
+typing-extensions @ file:///home/ktietz/src/ci_mi/typing_extensions_1612808209620/work
 urllib3==1.26.2
-Werkzeug==1.0.1
+Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
 wrapt==1.12.1
-zipp==3.4.0
+zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
