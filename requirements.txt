@@ -19,8 +19,6 @@ Jinja2==2.11.2
 joblib==1.0.0
 Keras==2.3.1
 MarkupSafe==1.1.1
-mkl-random==1.1.1
-mkl-service==2.3.0
 numpy==1.19.4
 oauthlib==3.1.0
 opencv-contrib-python==4.5.1.48
