@@ -17,6 +17,7 @@ def detect_emotion(image):
                 faces = sorted(faces, reverse=True,
                                key=lambda x: (x[2] - x[0]) * (x[3] - x[1]))[0]
                 (fX, fY, fW, fH) = faces
+
         roi = gray[fY:fY + fH, fX:fX + fW]
         roi = cv2.resize(roi, (64, 64))
         roi = roi.astype("float") / 255.0
@@ -26,5 +27,6 @@ def detect_emotion(image):
         preds = emotion_classifier.predict(roi)[0]
         # emotion_probability = np.max(preds)
         label = EMOTIONS[preds.argmax()]
-        # print(label)
+
+
         return str(label)

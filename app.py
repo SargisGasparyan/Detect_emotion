@@ -1,10 +1,10 @@
 import os
 from flask import Flask, render_template, request, jsonify
 from detect_emotions import detect_emotion
-
 app = Flask(__name__)
 app.config["IMAGE_UPLOADS"] = ""
 port = int(os.environ.get("PORT", 5300))
+
 
 @app.route('/')
 def index():
@@ -16,6 +16,7 @@ def recocnize_faces():
        image = request.files['image']
        image.save(os.path.join(app.config["IMAGE_UPLOADS"], image.filename))
        response_emotion = detect_emotion(image.filename)
+       print(response_emotion)
        return jsonify(
            resp_emotion=response_emotion)
 
